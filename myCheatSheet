@@ -1,19 +1,50 @@
 Navigation Comamnds
+___________________
 
-1. pwd        -> present working directory, basically says where you are in directory
-2. ls         -> shows files and folders
-3. ls -l      -> shows files and folders with more info
-4. ls -lh     ->  shows files and folders with more info but its human readable(h)
-5. ls - a     -> shows hidden files and folders as well
-6. ls -alh.   -> you can combine all of them like this 
+pwd        -> present working directory, basically says where you are in directory
+ls         -> shows files and folders
+ls -l      -> shows files and folders with more info
+ls -lh     ->  shows files and folders with more info but its human readable(h)
+ls - a     -> shows hidden files and folders as well
+ls -alh.   -> you can combine all of them like this 
+ls fname*  -> Shoes all files with name starting from fname(* is wild card)
+
 
 #a - for hidden, h- for human readble, l for- list info
 
-7. cd dir_    -> go inside directory 
-8. cd         ->  Just giving cd will bring you back to root folder
-9. cd ..      -> Go up 1 directory
-10. cd ../..  -> Go up 2 directories
+cd dir     -> go inside directory named dir
+cd         ->  Just giving cd will bring you back to root folder
+cd ..      -> Go up 1 directory
+cd ../..   -> Go up 2 directories
 
 
 Editing and Viewing Files
+__________________________
+nano       -> opens text editor
+nano fname -> open file named fname
+cat        -> concatenate, all it does is print file in terminal as it is
+
+Managing files and Directories
+______________________________
+mkdir dir  -> create new directory dir
+touch f.txt -> creates a file named fname.txt 
+cp src dstn -> copy file from source to destination
+cp -r src dstn -> copy folder and its subsequent directory from source to destination
+rm fname -> removes file named fname
+rm -r dirname -> removes directory and directories inside it as rmdir wont work here 
+rm *.txt    -> removes all files ending with .txt
+mv src destn -> move file from sources to destination
+
+
+
+Customizing Terminal
+____________________
+
+
+
+
+
+
+
+
 
