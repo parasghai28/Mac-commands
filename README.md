@@ -1,3 +1,4 @@
 # Mac-commands
 
-In this repo, I am adding common mac commands I use in day to day as a developer and creating an archive so any new programmer or someone using OS X command line for first time does't get overwhelmed with stuff. 
+In this repo, I will add common mac terminal commands I have been using as a developer for last 2 years as my personal archive. I am also adding some explanation
+along side commannds for new programmers and people using OS-X for first time. 
