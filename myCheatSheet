@@ -1,0 +1,19 @@
+Navigation Comamnds
+
+1. pwd        -> present working directory, basically says where you are in directory
+2. ls         -> shows files and folders
+3. ls -l      -> shows files and folders with more info
+4. ls -lh     ->  shows files and folders with more info but its human readable(h)
+5. ls - a     -> shows hidden files and folders as well
+6. ls -alh.   -> you can combine all of them like this 
+
+#a - for hidden, h- for human readble, l for- list info
+
+7. cd dir_    -> go inside directory 
+8. cd         ->  Just giving cd will bring you back to root folder
+9. cd ..      -> Go up 1 directory
+10. cd ../..  -> Go up 2 directories
+
+
+Editing and Viewing Files
+
