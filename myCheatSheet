@@ -26,19 +26,26 @@ cat        -> concatenate, all it does is print file in terminal as it is
 
 Managing files and Directories
 ______________________________
-mkdir dir  -> create new directory dir
-touch f.txt -> creates a file named fname.txt 
-cp src dstn -> copy file from source to destination
-cp -r src dstn -> copy folder and its subsequent directory from source to destination
-rm fname -> removes file named fname
+mkdir dir     -> create new directory dir
+touch f.txt   -> creates a file named fname.txt 
+cp src dstn   -> copy file from source to destination
+cp -r src dst -> copy folder and its subsequent directory from source to destination
+rm fname      -> removes file named fname
 rm -r dirname -> removes directory and directories inside it as rmdir wont work here 
-rm *.txt    -> removes all files ending with .txt
-mv src destn -> move file from sources to destination
+rm *.txt      -> removes all files ending with .txt
+mv src destn  -> move file from sources to destination
 
 
-
-Customizing Terminal
+Few Shortcuts
 ____________________
+⌘ + a       -> move top the start of command
+⌘ + e       -> move to the end of command
+Option key  -> Hold option key and put the cursor where you want to edit
+open .      -> Open current direcory finder window
+
+
+IO Redirection And Searching
+____________________________
 
 
 
