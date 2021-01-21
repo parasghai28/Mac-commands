@@ -46,9 +46,15 @@ open .      -> Open current direcory finder window
 
 IO Redirection And Searching
 ____________________________
-
-
-
+ pipelines, grep needs to be added ******
+ 
+ 
+ 
+Networking
+__________
+ 
+curl google.com    -> transfer data from server; http response is returned
+curl -i google.com -> http header and response is returned
 
 
 
